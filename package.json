@@ -1,0 +1,13 @@
+{
+  "main": "dist/consume.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/consume.js"
+  },
+  "dependencies": {
+    "csv-parse": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1"
+  }
+}
